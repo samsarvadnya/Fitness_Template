@@ -1,0 +1,1293 @@
+*{
+ margin: 0;
+ padding: 0;color: black;
+ font-family: sans-serif;
+ 
+}
+.header{
+    background-color: black;
+    height: 140px;
+    padding-top: 10px;
+    /* padding-bottom: -10px; */
+    
+    
+}
+.head{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+.logo img{
+    width: 120px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links img{
+    height: 26px;
+    padding: 3px;
+    border: 2px solid black;
+    
+}
+.search-bar{
+    border: 1px solid gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 7px;
+    margin-top: 10px;
+   
+}
+.search-bar img{
+    width: 20px;
+    height: 24px;
+}
+.header input{
+    padding: 10px 12px;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+/*navigation end */
+.slider{
+   
+    height: 651px;
+    /* border: 2px solid black; */
+    text-align: center;
+    color: black;
+    padding-top: 45%;
+    background-image: url(../images/background/slide1\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+}
+.slider span{
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    
+}
+.slider h1{
+    text-transform: uppercase;
+    color: #00c24f;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+
+}
+.slider p{
+    font-size: 33px;
+    text-transform: capitalize;
+
+}
+.slider-content{
+    width: 90%;
+    margin: 0 auto;
+}
+.slider button{
+    padding: 15px 40px;
+    background-color: #00c24f;
+    border: none;
+    color: aliceblue;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+.slider img{
+    width: 166px;
+}
+/* slider styling end */
+.story{
+    width: 90%;
+    margin: 0 auto;
+     padding-top: 20px;
+}
+.story-content h2{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: sans-serif;
+    margin: 0px 0px 15px;
+}
+.story-content span{
+ font-size: 20px;
+ font-family: sans-serif;
+ text-transform: uppercase;
+ font-weight: 900;
+}
+.story-content p{
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+.story-content button{
+    font-size: 15px;
+    color: white;
+    width: 170px;
+    height: 53px;
+    background-color: #00c24f;
+    border: none;
+    padding: 15px 40px;
+    margin-bottom: 20px;
+}
+.img-con img{
+    width: 100%;
+    height: 488px;
+    /* margin-top: 20px; */
+}
+.img-con span{
+    position: relative;
+    bottom: 42px;
+    padding: 5px;
+    color: gray;
+    font-size: 30px;
+    background-color: white;
+}
+/* story css styling end */
+.container{
+   padding: 20px;
+    text-align: center;
+    background-color: black;
+   
+}
+.title{
+    width: 98%;
+    margin: 0 auto; 
+    
+}
+.title h1{
+    color: #00c24f;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title h2{
+    font-size: 22px;
+    color: white;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.title img{
+    width: 100%;
+    height: 380px;
+}
+/* gallery css end */
+.pricing{
+    padding: 20px;
+    background-image: url(../images/background/bg-dott.png);
+    /* text-align: center; */
+    /* background-color: black; */
+}
+.pricing-title{
+    width: 98%;
+    margin: 0 auto; 
+    /* border: 2px solid black; */
+}
+.pricing h1{
+    color: #00c24f;
+    font-size: 20px;
+    padding: 3px;
+    text-align: center;
+}
+
+.pricing h2{
+    font-size: 22px;
+    color: black;
+    font-weight: 900;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+.card{
+    background-color: #00c24f;
+    padding-top: 40px;
+    margin: 30px 0px;
+    
+}
+.card ul {
+    text-align: start;
+    width: 80%;
+    margin: 0px auto;
+    font-size: 16px;
+    padding: 8px;
+    font-weight: 700;
+     height: 270px;
+}
+.card ul li{
+    margin: 0px auto;
+     font-size: 16px;
+     padding: 8px;
+     font-weight: 700;
+}
+.card h3{
+    font-size: 66px;
+    color: aliceblue;
+    font-weight: 900;
+    font-weight: bolder;
+    width: 80%;
+    margin: 0px auto;
+    text-align: start;
+}
+.card p{
+    font-size: 16px;
+    width: 80%;
+    margin: 0px auto;
+    color: black;
+    font-weight: bolder;
+}
+.card h4{
+    font-size: 24px;
+    padding: 10px;
+}
+.card button{
+    padding: 15px 40px;
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    font-size: 14px;
+   height: 51px;
+
+    margin: 24px;
+    padding: 15px 40px;
+}
+/* card css end */
+.template{
+    background-color: black;
+    height: 512px;
+    padding: 20px;
+    color: aliceblue;
+}
+.template-content{
+    width: 99%;
+    margin: 0 auto; 
+    padding-top: 20px;
+}
+.template-content h1{
+    color: #00c24f;
+    font-size: 20px;
+    padding: 3px;
+    text-align: center;
+}
+.template-content h2{
+    font-size: 22px;
+    color: white;
+    font-weight: 900;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.template-content img{
+    width: 100%;
+    height: 247px;
+}
+figcaption span{
+    font-size: 18px;
+    color: black;
+    position: relative;
+    bottom: 34px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.temp{
+    background-color: #00c24f;
+    padding: 20px;
+    margin-top: -24px;
+}
+figcaption h4{
+    color: aliceblue;
+    font-size: 24px;
+    
+}
+figcaption h5{
+    font-size: 20px;
+   
+}
+/* timetable css end */
+.trainer{
+    width: 99%;
+    margin: 0 auto;
+    padding: 38px 0px 10px;
+}
+.trainer h1{
+    color: #00c24f;
+    font-size: 20px;
+    padding: 13px;
+    
+}
+.trainer h2{
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+    
+    
+  margin: 10px;
+}
+#antonio img{
+    height: 535px;
+}
+.trainer p{
+    font-size: 16px;
+    /* border: 2px solid black; */
+    margin: 10px;
+}
+.trainer button{
+    font-size: 15px;
+    width: 200px;
+    height: 53px;
+    color: white;
+    background-color: #00c24f;
+    border: none;
+    padding: 15px 40px;
+    margin: 10px;
+}
+.train-img
+ {
+    width: 92%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+ }
+ .train-img img{
+    width: 100%;
+    height: 290px;
+}
+.train-img h3{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+}
+.train-img p{
+    color: #00c24f;
+    font-size: 20px;
+    padding: 3px;
+    font-weight: 900;
+    text-align: center;
+}
+/* trainer css end */
+.banner{
+    height: 730px;
+    padding-top: 10px;
+    width: 100%;
+    background-image: url(../images/background/bg-dott.png);
+}
+.banner-img{
+    width: 90%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    height: 476px;
+    
+
+}
+.banner-img img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.banner h2{
+    width: 94%;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.banner button{
+    font-size: 15px;
+    width: 200px;
+    height: 53px;
+    color: white;
+    background-color: #00c24f;
+    border: none;
+    padding: 15px 40px;
+    margin: 10px;
+}
+/* banner css end */
+.blog{
+    height: 550px;
+    width: 100%;
+
+}
+.blog .blog-content{
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 20px;
+    /* border: 2px solid black; */
+
+
+}
+.blog .blog-content h2{
+    color: #00c24f;
+    font-size: 20px;
+    padding: 3px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.blog .blog-content h3{
+    color: black;
+    font-size: 30px;
+    padding-top: 3px;
+    font-weight: 900;
+    text-align: start;
+    text-transform: uppercase;
+}
+.blog-img{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    background-image: url(../images/illustrations/1\ \(2\).jpg);
+}
+
+.blog-info{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: 13px;
+    
+}
+.blog-prof{
+ margin-left: 20px;
+ border-radius:50% ;
+}
+.blog-img p img{
+    height: 20px;
+    width: 20px;
+    background-color: aliceblue;
+}
+.blog-img p{
+  margin: 10px;
+    color: #00c24f;
+    padding-left: 5px;
+    font-size: 20px;
+}
+.name{
+    color: #00c24f;
+    font-size: 20px;
+    padding: 4px;
+    font-weight: 900;
+    text-align: start;
+    text-transform: uppercase;
+
+}
+.quots{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    padding: 26px;
+    font-weight: 900;
+    text-align: start;
+    text-transform: uppercase;
+}
+.name a{
+    color: #00c24f;
+    padding: 20px;
+    text-decoration: none;
+}
+/* blog css end */
+.about-us{
+ width: 100%;
+ height: 760px;
+}
+.about-us-content{
+    width: 86%;
+    margin: 0 auto;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+.about-us-content h2{
+    font-size: 24px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-bottom: 15px;
+}
+.about-us-content p{
+    text-transform: capitalize;
+    font-size: 14px;
+    padding-bottom: 15px;
+
+}
+.social{
+    display: flex;
+    
+}
+.social p img{
+    width: 24px;
+    padding: 7px;
+    border: 1px solid #00c24f ;
+    margin-left: 10px;
+}
+
+.address{
+    display: flex;
+}
+.address span img{
+    width: 20px;
+    margin: 10px;
+
+}
+.about-us-content ul{
+    margin-left: 20px;
+}
+.about-us-content ul li{
+    padding: 6px;
+    
+}
+.about-us-content ul li a{
+    text-decoration: none;
+}
+.about-us-content input{
+    width: 77%;
+    padding: 10px 40px 10px 20px;
+}
+/* about us css end */
+footer{
+    width: 100%;
+    background-color: rgb(215, 213, 213);
+    height:102px;
+}
+.footer-content{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+ padding-top: 20px;
+ text-transform: capitalize;
+ font-size: 14px;
+}
+/*320 view completed*/
+/* 767 view started */
+.follow-us{
+    display: none;
+}
+.nav-links input{
+    display: none;
+}
+#card-pic{
+    display: none;
+}
+#figure-two{
+    display: none;
+}
+#blog-img-ipad{
+    display: none;
+}
+.foot-logo{
+    display: none;
+}
+
+@media (min-width:768px){
+.follow-us{
+    display: block;
+    width: 100%;
+    height: 51px ;
+    margin-top: -10px;
+    background-color: aliceblue;
+}
+.follow-us .social-links{
+    width: 88%;
+    margin: 0 auto;
+    height: 51px;
+    padding-top: 5px;
+    
+}
+.social-links h2{
+    color: #00c24f;
+    font-size: 16px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-links div{
+    display: flex;
+    align-items: center;
+}
+.social-links p img{
+    width: 24px;
+    padding: 4px;
+    border: 1px solid black ;
+    margin-left: 10px;
+}
+.nav-links input{
+    padding: 10px 12px;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    border: 1px solid gray;
+    display: block;
+   
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    display: none;
+}
+.header{
+    height: 110px;
+}
+/* header section for 768 view end */
+
+
+.slider{
+    height: 670px;
+    
+}
+.slider span{
+    font-size: 89px;
+    font-weight: 900;
+    color: black;
+    padding-top: -38px;
+    
+}
+
+.slider p{
+    font-size: 59px;
+
+}
+.slider-content{
+    width: 90%;
+    margin: 0 auto;
+    padding-top:  30px;
+}
+.slider button{
+    padding: 15px 40px;
+    background-color: #00c24f;
+    border: none;
+    color: aliceblue;
+    font-size: 15px;
+   
+}
+.slider img{
+    width: 262px;
+}
+/* slider section for 768 view end */
+.story{
+    width: 90%;
+    margin: 0 auto;
+     padding-top: 20px;
+}
+.story-content h2{
+    font-size: 66px;
+  
+}
+
+.story-content .story-ipad{
+    display: flex;
+    justify-content: space-between;
+}
+.story-content button{
+   
+}
+.img-con img{
+    width: 330px;
+    height: 555px;
+    /* margin-top: 20px; */
+}
+
+.story-img-ipad {
+    display: flex;
+}
+.yoga{
+text-align: center;
+
+} 
+.yoga span{
+    position: relative;
+    right: 335px;
+    bottom: 12px;
+}
+/* story section for 768 view end */
+/*  */
+.container{
+     background-image: url(../images/background/bg5.jpg);
+     background-position: center;  
+ }
+ .title{
+     width: 88%;
+     margin: 0 auto;    
+ }
+ .title h1{
+     font-size: 24px; 
+ }
+ 
+ .title h2{
+     font-size: 66px;
+     color: white;
+     padding-top: 10px;
+     margin-bottom: 20px;
+ }
+ .title img{
+     width: 304px;
+     height: 398px;
+ }
+/* gallery section for 768 view end */
+
+.pricing-title{
+    width: 98%;
+    margin: 0 auto; 
+    /* border: 2px solid black; */
+}
+.pricing-title img{
+    height: 488px;
+    
+}
+.pricing h1{
+    font-size: 24px;
+}
+
+.pricing h2{
+    font-size: 66px;
+}
+.card-ipad{
+    display: flex;
+}
+#card-pic{
+    background: none;
+    display: block;
+}
+.card{
+    width: 345px;
+    margin: 2px ;
+    
+}
+.card li{
+    text-align: start;
+    width: 80%;
+     margin: 0px auto;
+     font-size: 16px;
+     padding: 8px;
+     font-weight: 700;
+}
+.card h3{
+    font-size: 66px;
+    color: aliceblue;
+    font-weight: 900;
+    font-weight: bolder;
+    width: 80%;
+    margin: 0px auto;
+    text-align: start;
+}
+.card p{
+    font-size: 16px;
+    width: 80%;
+    margin: 0px auto;
+    color: black;
+    font-weight: bolder;
+}
+.card h4{
+    font-size: 24px;
+    padding: 10px;
+}
+.card button{
+    padding: 15px 40px;
+    background-color: black;
+    border: none;
+    color: aliceblue;
+    font-size: 14px;
+   height: 51px;
+
+    margin: 24px;
+    padding: 15px 40px;
+}
+/* card  section for 768 view   css end */
+
+.template{
+    height: 660px;
+}
+
+.template-content h1{
+    font-size: 24px;
+    text-align: start;
+}
+.template-content h2{
+    font-size: 66px;
+    text-align: start;
+}
+.template-content img{
+    width: 345px;
+    height: 276px;
+}
+#figure-two{
+    display: block;
+}
+.temp{
+    width: 305px;
+}
+figcaption h4{
+    color: aliceblue;
+    font-size: 24px;
+    
+}
+figcaption h5{
+    font-size: 20px; 
+}
+.figure-ipad{
+    display: flex;
+    justify-content: space-between;
+}
+/* timetable  section for 768 view   css end */
+.trainer{
+    width: 90%;
+    margin: 0 auto;
+ 
+}
+#antonio{
+    text-align: center;
+    width: 330px;
+}
+.trainer .train-ipad{
+    display: flex;
+    justify-content: space-between;
+}
+.train-img
+ {
+    width: 92%;
+    margin: 0 auto;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+ }
+ .train-img img{
+    width: 330px;
+    height: 330px;
+}
+
+.train-img p{
+    color: #00c24f;
+    font-size: 20px;
+    padding: 3px;
+    font-weight: 900;
+    text-align: center;
+}
+/* trainer  section for 768 view   css end */
+.banner{
+    height: 1145px;
+
+}
+.banner-img{
+    width: 90%;
+    margin: 0 auto;
+}
+.banner-img img{
+    height: 730px;
+    width: 445px;
+    padding-left: 120px;
+}
+.banner h2{
+   margin-top: 300px;
+   font-size: 66px;
+}
+.banner button{
+    margin: 20px;
+}
+/* banner  section for 768 view   css end */
+.blog{
+    height: 620px;
+    width: 100%;
+}
+
+
+.blog .blog-content h3{  
+    font-size: 66px;
+    padding-top: 13px;
+    text-align: center;
+    padding-bottom: 13px;
+ 
+}
+.blog-ipad{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-img{
+    width: 330px;
+    height: 345px;
+}
+
+#blog-img-ipad{
+    display: block;
+}
+
+/* blog  section for 768 view   css end */
+.about-ipad{
+    display: flex;
+    justify-content: space-between;
+}
+.usefull{
+    width: 50%;
+}
+.about-us{
+    width: 100%;
+    height: 420px;
+   }
+   .about-us-content{
+       width: 86%;
+       margin: 0 auto;
+       height: 100%;
+       /* border: 2px solid black; */
+   }
+   .about-us-content h2{
+       font-size: 24px;
+       padding-top: 10px;
+       text-transform: uppercase;
+       font-weight: 900;
+       padding-bottom: 15px;
+   }
+   .about-us-content p{
+       text-transform: capitalize;
+       font-size: 14px;
+       padding-bottom: 15px;
+   
+   }
+   .social{
+       display: flex;
+       
+   }
+   .social p img{
+       width: 24px;
+       padding: 7px;
+       border: 1px solid #00c24f ;
+       margin-left: 10px;
+   }
+   
+   .address{
+       display: flex;
+   }
+  
+}
+.navigation-links{
+    display: none;
+}
+#story-yoga{
+    display: none;
+}
+#card-desktop{
+    display: none;
+}
+#desk-yes{
+    display: none;
+}
+footer{text-align: center;}
+/* 768 ipad view in css end */
+@media (min-width: 992px){
+    .navigation-links ul{
+        display: flex; 
+    }
+    .navigation-links ul li a{
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 12px;
+        letter-spacing: 1px;
+       
+    }
+    .navigation-links{
+        display: block;
+    }
+    .logo img{
+      height: 55px;
+      width: 130px;
+    }
+
+    /*navigation end */
+    .slider{
+        height: 700px;
+        text-align: start;
+     
+        
+    }
+    .slider span{
+        font-size: 89px;
+        
+    }
+    
+    .slider p{
+        font-size: 76px;
+    
+    }
+    .slider-content{
+        display: flex;
+        align-items: start;
+        /* justify-content: space-between; */
+    }
+   
+    .slider img{
+        width: 484px;
+        text-align: end;
+    }
+    /* slider 992 view end  */
+    
+    .img-con img{
+        width: 287px;
+        height: 487px;
+        /* margin-top: 20px; */
+    }
+    .yoga{
+     display: none;
+    
+    } 
+    #story-yoga{
+        display: block;
+    }
+   
+    /* story section for 992 view end */
+   
+    .title{
+        width: 90%;
+        margin: 0 auto;   
+        padding-bottom: 50px; 
+    }
+    
+    .title img{
+        width: 207px;
+        height: 272px;
+    }
+   /* gallery section for 992 view end */
+    #card-desk{
+        display: none;
+    }
+    #card-desktop{
+        display: block;
+    }
+    .pricing-title img{
+        height: 579px;
+        
+    }
+    .pricing h2{
+        font-size: 66px;
+    }
+    .card-ipad{
+        display: flex;
+    }
+    #card-pic{
+        background: none;
+        display: block;
+    }
+    .card button{
+    
+        padding-bottom:  40px;
+    }
+/* card  section for 992 view   css end */
+
+.template{
+    height: 770px;
+    margin-bottom: 80px;
+}
+
+
+.template-content h2{
+    font-size: 66px;
+    text-align: start;
+}
+.template-content img{
+    padding-top: 90px;
+    width: 464px;
+    height: 371px;
+}
+#figure-two{
+    display: block;
+}
+.temp{
+    width: 424px;
+}
+figcaption h4{
+    color: aliceblue;
+    font-size: 24px;
+    
+}
+figcaption h5{
+    font-size: 20px; 
+}
+.figure-ipad{
+    display: flex;
+    justify-content: space-between;
+}
+/* timetable  section for 992 view   css end */
+    .trainer-desk{
+        display: flex;
+    }
+    .trainer-desktop{
+     display: flex;
+    }
+    .trainer{
+        width: 90%;
+        margin: 0 auto;
+    
+    }
+    .trainer h2{
+        font-size: 60px;
+    }
+    .trainer .para{
+        padding-top: 90px;
+    }
+
+    #antonio img{
+        /* text-align: center;
+        width: 330px; */
+        width: 350px;
+        height: 600px;
+    }
+   
+    .train-img
+    {
+       margin: 10px;
+    }
+    .train-img img{
+        width: 250px;
+        height: 250px;
+    }
+
+/* trainer  section for 992 view   css end */
+    .banner-bg{
+        display: flex;
+      
+       
+    }
+    .banner{ height: 710px;}
+    .banner-img img{
+        height: 607px;
+        width: 370px;
+      
+    }
+    .banner h2{
+    margin-top: 70px;
+    font-size: 66px;
+    }
+  
+/* banner  section for 992 view   css end */
+.blog{
+    height: 620px;
+    width: 100%;
+}
+
+
+
+.blog-ipad{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-img{
+    width: 450px;
+    height: 430px;
+}
+
+
+
+/* blog  section for 768 view   css end */
+.about-desk{
+    display: flex;
+    margin: 10px;
+
+}
+#desk-no{
+    display: none;
+}
+#desk-yes{
+   display: block; 
+}
+.foot-logo{display: block;}
+
+.about-us{
+    width: 100%;
+    height: 280px;
+   }
+   .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+   }
+   footer p{
+    padding-left: 20px;
+   }
+   
+}
+@media (min-width: 1200px){
+    .navigation-links ul li a{
+        color: white;
+        font-size: 28px;
+        text-decoration: none;
+        margin-left: 22px;
+        letter-spacing: 2px;
+    
+       
+    }
+    .slider-content img{
+        width: 800px;
+        height: 914px;
+        margin-top: -750px;
+    }
+    .please{
+        margin-top: -400px;
+    }
+   
+    .slider-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .slider{
+        height: 400px;
+
+    }
+    .story-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .title{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pricing-title{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .template-content{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .trainer-desktop{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .trainer-desk{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .banner{
+        height: 700px;
+    }
+    .banner-bg{
+        
+        width: 70%;
+        margin: 0 auto;
+    }
+    .blog{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .about-us{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .footer{
+        width: 70%;
+        margin: 0 auto;
+    }
+    
+
+
+}
+
